@@ -2,6 +2,8 @@
 
 A MicroPython project template.
 
+![Status](https://github.com/majabojarska/micropython-project-template/actions/workflows/status.yaml/badge.svg)
+
 ## Development
 
 ### Setup environment
