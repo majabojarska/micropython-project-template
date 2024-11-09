@@ -1,17 +1,19 @@
 # micropython-project-template
 
-A MicroPython project template.
+A [MicroPython](https://micropython.org/) project template.
 
 > [!WARNING]
 > This is an early work in progress. Use this template at your own risk.
 
-![Status](https://github.com/majabojarska/micropython-project-template/actions/workflows/status.yaml/badge.svg)
+![Status](https://github.com/majabojarska/micropython-project-template/actions/workflows/status.yaml/badge.svg) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 ## Planned work
 
 - [x] Add example, non-flatPython project sources.
 - [x] Setup a build toolchain.
 - [x] Implement build, upload, lint, and format targets.
+- [ ] Add license.
+- [x] Add code of conduct.
 - [ ] Setup project template generation workflows.
 - [ ] Add issue templates.
 - [ ] Add contribution guidelines.
