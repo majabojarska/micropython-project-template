@@ -2,7 +2,19 @@
 
 A MicroPython project template.
 
+> [!WARNING]
+> This is an early work in progress. Use this template at your own risk.
+
 ![Status](https://github.com/majabojarska/micropython-project-template/actions/workflows/status.yaml/badge.svg)
+
+## Planned work
+
+- [x] Add example, non-flatPython project sources.
+- [x] Setup a build toolchain.
+- [x] Implement build, upload, lint, and format targets.
+- [ ] Setup project template generation workflows.
+- [ ] Add issue templates.
+- [ ] Add contribution guidelines.
 
 ## Development
 
