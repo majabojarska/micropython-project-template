@@ -12,7 +12,7 @@ A [MicroPython](https://micropython.org/) project template.
 - [x] Add example, non-flatPython project sources.
 - [x] Setup a build toolchain.
 - [x] Implement build, upload, lint, and format targets.
-- [ ] Add license.
+- [x] Add license.
 - [x] Add code of conduct.
 - [ ] Setup project template generation workflows.
 - [ ] Add issue templates.
