@@ -1,0 +1,33 @@
+name: Status
+on: 
+  push:
+  pull_request:
+  release:
+env:
+  SRC_DIR: 'src'
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install CPython
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install '.[dev,test]'
+
+      # - name: Install MicroPython
+      #   uses: BrianPugh/install-micropython@v2.2.0
+
+      - name: Lint
+        run: make lint
+
+      - name: Test
+        run: make test
+
+      - name: Build
+        run: make build
