@@ -24,10 +24,9 @@ pre-commit install
 
 ### Build, deploy
 
-```
+```bash
 # Use this for a quick development feedback loop.
 make run-remote
-
 
 # Use this for persistent board flashing.
 make build
