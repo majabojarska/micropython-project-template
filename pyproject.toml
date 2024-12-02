@@ -14,7 +14,7 @@ dependencies = ["micropython-rp2-stubs ~= 1.23.0.post2"]
 
 [project.optional-dependencies]
 dev = ["rshell ~= 0.0.31", "mpremote ~= 1.24.1", "mpy_cross ~= 1.25.0rc0.post2"]
-test = ["pytest ~= 8.3.3", "ruff ~= 0.7.0"]
+test = ["pytest ~= 8.3.3", "ruff ~= 0.8.1"]
 
 [tool.ruff]
 
